@@ -1,0 +1,221 @@
+@import '../styles/_variable.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+// =======================================================
+//                         header
+// =======================================================
+header{
+    background-color: $primary-color;
+    nav{
+    //  background-color: $primary-color;
+     width: 90%;
+     margin: auto;
+     border-bottom: 1px solid white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 5px;
+     .nav{
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        img{
+            height: 5em;
+            width: 10em;
+        }
+        ul{
+            display: flex;
+            gap: 2em;
+            li{
+                a{
+                    text-decoration: none;
+                    font-size: 1.2em;
+                    color: white;
+                }
+                a:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+        .nav1{
+            display: flex;
+            align-items: center;
+            gap: 2em;
+            ul{
+                display: flex;
+                gap: 2em;
+                li{
+                    .dropdown{
+                        display: none;
+                        position: absolute;
+                        background-color: $text;
+                        margin-left: -15em;
+                        padding: 1em;
+                        ul{
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                            gap: 1em;
+                            li{
+                                div{
+                                    h6{
+                                        font-size: 1em;
+                                        color: $dark;
+                                    }
+                                    p{
+                                        font-size: 1em;
+                                        color: $ptag;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        font-size: 1.2em;
+                        color: white;
+                    }
+                    a:hover{
+                        color: red;
+                    }
+                }
+                li:hover .dropdown{
+                    display: grid;
+                }
+            }
+            .btn{
+                padding: 1em 2em;
+                border-radius: 10px;
+                border: none;
+                background-color: white;
+                text-decoration: none;
+                color: blue;
+            }
+        }
+    }
+}
+// ===============================================================
+//                     end of header
+// ===============================================================
+
+
+// ===============================================================
+//                     hero page
+// ===============================================================
+
+
+// ===============================================================
+//                     section1
+// ===============================================================
+main{
+    .tag1{
+        background: linear-gradient(90deg, $primary-color, $main-color);
+        // padding: 0 3em;
+        .main{
+            display: $display;
+            justify-content: space-between;
+            align-items: $align;
+            width: 90%;
+            margin: auto;
+            // background: linear-gradient(90deg, $primary-color, $main-color);
+
+            .sub1a{
+                img{
+                    height: 100vh;
+
+                }
+            }
+    
+            .sub1{
+                h1{
+                    color: $text;
+                    font-size: 4em; 
+                    padding: 1em 0;
+                    padding-right: 3em;
+                    span{
+                        background-image: linear-gradient(129deg, $text, $main-color);
+                        -webkit-text-fill-color: transparent;
+                        -webkit-background-clip: text;
+                    }
+                }
+                p{
+                    color: $text;
+                    font-size: 1.7em;
+                    padding: 1.5em 0;
+                }
+                button{
+                    background-color: $main-color;
+                    border: none;
+                    padding: 1em;
+                    border-radius: 10px;
+                    a{
+                        text-decoration: none;
+                        color: $text;
+                        padding: 1em;
+                        font-size: 1.5em;
+                    }
+                }
+                button:hover{
+                        background-image: linear-gradient(129deg, $primary-color, $main-color);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// ==========================================================
+//                             section2
+// ==========================================================
+.tag2{
+    background-color: whitesmoke;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .sub2{
+        h1{
+            font-size: 2.5em;
+        }
+    }
+    .sub2a{
+        padding: 3em 0 5em;
+        img{
+            height: 15em;
+            width: 20em;
+            border-radius: 15px;
+        }
+    }
+}
+// ============================================================
+//                         section3
+// ============================================================
+.tag3{
+    width: 75%;
+    min-height: 20vh;
+    margin: auto;
+    display: flex;
+    align-self: center;
+    background-color: beige;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 2em;
+    margin-top: -5em;
+    box-shadow: 10px 20px 20px green 40px;
+    .sub3{
+        border-right: 1px solid;
+        padding: 0 1.5em;
+    }
+}

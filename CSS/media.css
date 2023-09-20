@@ -1,0 +1,15 @@
+@media (max-width: 1000px) {
+  header nav .nav1 {
+    display: none;
+  }
+  main .tag1 .main {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  header nav .nav1 {
+    display: none;
+  }
+}
