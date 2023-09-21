@@ -7,6 +7,8 @@
 
 header {
   background-color: #2c1762;
+  position: sticky;
+  top: 0.0001em;
 }
 header nav {
   width: 90%;
@@ -43,6 +45,9 @@ header nav .nav1 {
   align-items: center;
   gap: 2em;
 }
+header nav .nav1 i {
+  display: none;
+}
 header nav .nav1 ul {
   display: flex;
   gap: 2em;
@@ -59,13 +64,26 @@ header nav .nav1 ul li .dropdown ul {
   grid-template-columns: repeat(2, 1fr);
   gap: 1em;
 }
-header nav .nav1 ul li .dropdown ul li div h6 {
+header nav .nav1 ul li .dropdown ul li {
+  padding-bottom: 2px;
+}
+header nav .nav1 ul li .dropdown ul li .pee {
+  display: flex;
+  gap: 2em;
+}
+header nav .nav1 ul li .dropdown ul li .pee div h6 {
   font-size: 1em;
   color: black;
 }
-header nav .nav1 ul li .dropdown ul li div p {
+header nav .nav1 ul li .dropdown ul li .pee div p {
   font-size: 1em;
   color: rgba(0, 0, 0, 0.375);
+  padding-bottom: 10px;
+}
+header nav .nav1 ul li .dropdown ul li:hover {
+  background-color: rgba(207, 8, 114, 0.474);
+  border-radius: 10px;
+  padding: 1em;
 }
 header nav .nav1 ul li a {
   text-decoration: none;
@@ -98,13 +116,12 @@ main .tag1 .main {
   margin: auto;
 }
 main .tag1 .main .sub1a img {
-  height: 100vh;
+  height: 120vh;
 }
 main .tag1 .main .sub1 h1 {
   color: #ffffff;
-  font-size: 4em;
+  font-size: 3.5em;
   padding: 1em 0;
-  padding-right: 3em;
 }
 main .tag1 .main .sub1 h1 span {
   background-image: linear-gradient(129deg, #ffffff, #cf0871);
@@ -130,6 +147,25 @@ main .tag1 .main .sub1 button a {
 }
 main .tag1 .main .sub1 button:hover {
   background-image: linear-gradient(129deg, #2c1762, #cf0871);
+  padding: 1.5em 2em;
+}
+main .tag1 .main .sub1 .mini {
+  display: flex;
+  gap: 2em;
+  padding-top: 4em;
+}
+main .tag1 .main .sub1 .mini div {
+  display: flex;
+  gap: 1em;
+}
+main .tag1 .main .sub1 .mini div span {
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 1em 3px;
+}
+main .tag1 .main .sub1 .mini div img {
+  height: 10vh;
+  width: 3em;
 }
 
 .tag2 {
@@ -162,9 +198,62 @@ main .tag1 .main .sub1 button:hover {
   justify-content: space-between;
   padding: 2em;
   margin-top: -5em;
-  box-shadow: 10px 20px 20px green 40px;
+  box-shadow: 0 10px 15px 0 #cf0871;
 }
 .tag3 .sub3 {
   border-right: 1px solid;
   padding: 0 1.5em;
+}
+
+.men {
+  text-align: center;
+  margin: 5em 0;
+}
+.men .men1 {
+  background-color: #cf0871;
+  border: none;
+  padding: 1.4em 1em;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+}
+.men .men1 a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1em;
+  font-size: 1.5em;
+}
+.men .men1:hover {
+  background-image: linear-gradient(129deg, #2c1762, #cf0871);
+  padding: 1.5em 2em;
+}
+
+.tag4 {
+  width: 90%;
+  border: 2px solid;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tag4 .sub4a {
+  background-image: url(../images/image\ 4a.webp);
+  position: relative;
+}
+.tag4 .sub4a #img {
+  width: 15em;
+  height: 15em;
+}
+.tag4 .sub4a #img1 {
+  height: 5em;
+  width: 5em;
+  position: absolute;
+  right: 2em;
+  bottom: 2em;
+}
+.tag4 .sub4a img {
+  height: 10em;
+  width: 10em;
+  position: absolute;
+  right: 2em;
+  top: 4em;
 }

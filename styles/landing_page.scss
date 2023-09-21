@@ -10,6 +10,8 @@
 // =======================================================
 header{
     background-color: $primary-color;
+    position: sticky;
+    top: 0.0001em;
     nav{
     //  background-color: $primary-color;
      width: 90%;
@@ -46,6 +48,9 @@ header{
             display: flex;
             align-items: center;
             gap: 2em;
+            i{
+                display: none;
+            }
             ul{
                 display: flex;
                 gap: 2em;
@@ -61,16 +66,27 @@ header{
                             grid-template-columns: repeat(2, 1fr);
                             gap: 1em;
                             li{
-                                div{
-                                    h6{
-                                        font-size: 1em;
-                                        color: $dark;
-                                    }
-                                    p{
-                                        font-size: 1em;
-                                        color: $ptag;
+                                padding-bottom: 2px;
+                                .pee{
+                                    display: $display;
+                                    gap: 2em;
+                                    div{
+                                        h6{
+                                            font-size: 1em;
+                                            color: $dark;
+                                        }
+                                        p{
+                                            font-size: 1em;
+                                            color: $ptag;
+                                            padding-bottom: 10px;
+                                        }
                                     }
                                 }
+                            }
+                            li:hover{
+                                background-color: rgba(207, 8, 114, 0.474);
+                                border-radius: 10px;
+                                padding: 1em;
                             }
                         }
                     }
@@ -125,17 +141,16 @@ main{
 
             .sub1a{
                 img{
-                    height: 100vh;
-
+                    height: 120vh;
                 }
             }
     
             .sub1{
                 h1{
                     color: $text;
-                    font-size: 4em; 
+                    font-size: 3.5em; 
                     padding: 1em 0;
-                    padding-right: 3em;
+                    // padding-right: 3em;
                     span{
                         background-image: linear-gradient(129deg, $text, $main-color);
                         -webkit-text-fill-color: transparent;
@@ -161,6 +176,26 @@ main{
                 }
                 button:hover{
                         background-image: linear-gradient(129deg, $primary-color, $main-color);
+                        padding: 1.5em 2em;
+                }
+                .mini{
+                    display: $display;
+                    // justify-content: center;
+                    gap: 2em;
+                    padding-top: 4em;
+                    div{
+                        display: $display;
+                        gap: 1em;
+                        span{
+                            color: $text;
+                            font-size: 1.2em;
+                            padding: 1em 3px;
+                        }
+                        img{
+                            height: 10vh;
+                            width: 3em;
+                        }
+                    }
                 }
             }
         }
@@ -213,9 +248,70 @@ main{
     justify-content: space-between;
     padding: 2em;
     margin-top: -5em;
-    box-shadow: 10px 20px 20px green 40px;
+    box-shadow: 0 10px 15px 0 $main-color;
     .sub3{
         border-right: 1px solid;
         padding: 0 1.5em;
     }
+}
+.men{
+    text-align: center;
+    margin: 5em 0;
+    .men1{
+        background-color: $main-color;
+        border: none;
+        padding: 1.4em 1em;
+        border-radius: 10px;
+        text-align: center;
+        border: none;
+       
+        a{
+            text-decoration: none;
+            color: $text;
+            padding: 1em;
+            font-size: 1.5em;
+        }
+    }
+    .men1:hover{
+            background-image: linear-gradient(129deg, $primary-color, $main-color);
+            padding: 1.5em 2em;
+    }
+}
+// ============================================================
+//                         section4
+// ============================================================
+.tag4{
+    width: 90%;
+    border: 2px solid ;
+    margin: auto;
+    display: $display;
+    justify-content: space-between;
+
+    .sub4a{
+        background-image: url(../images/image\ 4a.webp);
+        position: relative;
+        #img{
+            width: 15em;
+            height: 15em;
+            // position: relative;
+        }
+        #img1{
+            height: 5em;
+            width: 5em;
+            position: absolute;
+            right: 2em;
+            bottom: 2em;
+
+        }
+        img{
+            height: 10em;
+            width: 10em;
+            position: absolute;
+            right: 2em;
+            top: 4em;
+            // top: 3em;
+        }
+        
+    }
+
 }

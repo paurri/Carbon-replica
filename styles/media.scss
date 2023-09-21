@@ -2,7 +2,22 @@
     header{
         nav{
             .nav1{
+                i{
+                    display: inline;
+                    ul{
+                        display: none;
+                        width: 100%;
+                    }
+                }
+                i:hover ul{
+                    display: block;
+                }
+               ul{
                 display: none;
+               }
+               .btn{
+                display: none;
+               }
             }
         }
     }
@@ -20,19 +35,116 @@
     header{
         nav{
             .nav1{
+                i{
+                    display: inline;
+                    ul{
+                        display: none;
+                        width: 100%;
+                    }
+                }
+                i:hover ul{
+                    display: block;
+                }
+               ul{
                 display: none;
+               }
+               .btn{
+                display: none;
+               }
+            }
+            .nav{
+                ul{
+                    display: none;
+                }
             }
         }
     }
     main{
         .tag1{
-
+            display: block;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(bottom, #2c1762ff, #cf0871ff);
+            .main{
+                .sub1{
+                    h1{
+                        font-size: 2.3em;
+                        padding-left: 3em;
+                    }
+                }
+            }
         }
+        .tag2{
+            display: block;
+            align-items: center;
+            text-align: center;
+        }
+        .tag3{
+            display: block;
+            text-align: center;
+            .sub3{
+                border-right: none;
+                border-bottom: 1px solid black;
+            }
     }
 }
 @media (max-width: 576px){
-    
-}
-@media (max-width: 500px){
-    
+    header{
+        nav{
+            .nav{
+                ul{
+                    display: none;
+                }
+            }
+            .nav1{
+                i{
+                    display: inline;
+                    ul{
+                        display: none;
+                        width: 100%;
+                    }
+                }
+                i:hover ul{
+                    display: block;
+                }
+               ul{
+                display: none;
+               }
+               .btn{
+                display: none;
+               }
+            }
+        }
+    }
+    main{
+        .tag1{
+            display: block;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(to bottom, $primary-color, $main-color);
+            .main{
+                .sub1{
+                    text-align: center;
+                    align-items: center;
+                    h1{
+                        font-size: 2em;
+                        padding-left: 2.5em;
+                    }
+                }
+            }
+        }
+        .tag2{
+            display: block;
+            align-items: center;
+            text-align: center;
+        }
+        .tag3{
+            display: block;
+            text-align: center;
+            .sub3{
+                border-right: none;
+                border-bottom: 1px solid black;
+            }
+        }
+    }
 }

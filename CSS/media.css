@@ -1,5 +1,18 @@
 @media (max-width: 1000px) {
-  header nav .nav1 {
+  header nav .nav1 i {
+    display: inline;
+  }
+  header nav .nav1 i ul {
+    display: none;
+    width: 100%;
+  }
+  header nav .nav1 i:hover ul {
+    display: block;
+  }
+  header nav .nav1 ul {
+    display: none;
+  }
+  header nav .nav1 .btn {
     display: none;
   }
   main .tag1 .main {
@@ -9,7 +22,84 @@
   }
 }
 @media (max-width: 768px) {
-  header nav .nav1 {
+  header nav .nav1 i {
+    display: inline;
+  }
+  header nav .nav1 i ul {
     display: none;
+    width: 100%;
+  }
+  header nav .nav1 i:hover ul {
+    display: block;
+  }
+  header nav .nav1 ul {
+    display: none;
+  }
+  header nav .nav1 .btn {
+    display: none;
+  }
+  header nav .nav ul {
+    display: none;
+  }
+  main .tag1 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  main .tag1 .main .sub1 h1 {
+    font-size: 2.3em;
+    padding-left: 3em;
+  }
+  main .tag2 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  header nav .nav ul {
+    display: none;
+  }
+  header nav .nav1 i {
+    display: inline;
+  }
+  header nav .nav1 i ul {
+    display: none;
+    width: 100%;
+  }
+  header nav .nav1 i:hover ul {
+    display: block;
+  }
+  header nav .nav1 ul {
+    display: none;
+  }
+  header nav .nav1 .btn {
+    display: none;
+  }
+  main .tag1 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  main .tag1 .main .sub1 {
+    text-align: center;
+    align-items: center;
+  }
+  main .tag1 .main .sub1 h1 {
+    font-size: 2em;
+    padding-left: 2.5em;
+  }
+  main .tag2 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  main .tag3 {
+    display: block;
+    text-align: center;
+  }
+  main .tag3 .sub3 {
+    border-right: none;
+    border-bottom: 1px solid black;
   }
 }
