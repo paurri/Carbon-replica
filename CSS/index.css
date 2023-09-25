@@ -1,0 +1,169 @@
+@media (max-width: 1000px) {
+  header nav .nav1 ul {
+    display: none;
+  }
+  header nav .nav1 a {
+    display: none;
+  }
+  header nav .nav1 i {
+    display: inline;
+  }
+  header nav .nav1 i ul {
+    display: none;
+  }
+  header nav .nav1 i:hover ul {
+    display: block;
+  }
+}
+@media (max-width: 773px) {
+  header nav .nav1 ul {
+    display: none;
+  }
+  header nav .nav1 a {
+    display: none;
+  }
+  header nav .nav1 i ul {
+    display: none;
+  }
+  header nav .nav1 i:hover ul {
+    display: block;
+  }
+  header nav .nav ul {
+    display: none;
+  }
+  main .tag1 .main {
+    display: block;
+    text-align: center;
+  }
+  main .tag2 {
+    display: block;
+    text-align: center;
+  }
+  main .tag3 {
+    display: block;
+  }
+  main .tag3 .sub3 {
+    border-right: none;
+    border-bottom: 1px solid;
+  }
+  main .tag4 {
+    display: block;
+    align-items: center;
+  }
+  main .tag4 .sub4a p {
+    font-size: 1em;
+  }
+  main .tag5 {
+    display: block;
+    margin-top: 28em;
+    text-align: center;
+    padding-top: 3em;
+  }
+  main .tag6 {
+    display: block;
+  }
+  main .tag7 {
+    display: block;
+  }
+  main .tag7 .sub7 img {
+    width: 100%;
+    margin-top: -1px;
+    padding-bottom: 3em;
+  }
+  main .tag8 {
+    display: block;
+  }
+  main .tag8 .sub8 {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  main .tag5 {
+    margin-top: 35em;
+  }
+}
+@media (max-width: 560px) {
+  main .tag6 .sub6a {
+    margin-top: 2em;
+  }
+  main .tag6 .sub6a img {
+    width: 24em;
+  }
+}
+@media (max-width: 510px) {
+  main .tag1 .main {
+    align-items: start;
+  }
+  main .tag1 .main .sub1a img {
+    width: 80%;
+  }
+  main .tag4 {
+    display: block;
+  }
+  main .tag4 .sub4 p {
+    font-size: 1em;
+  }
+  main .tag5 {
+    align-items: start;
+    text-align: start;
+  }
+  main .tag5 .sub5a {
+    padding: 10px;
+  }
+  main .tag5 .sub5a h3 {
+    font-size: 3em;
+  }
+  main .tag5 .sub5 img {
+    width: 20em;
+    margin-left: -2em;
+  }
+  main .tag6 {
+    align-items: start;
+  }
+  main .tag6 .sub6a img {
+    width: 20em;
+  }
+  main .tag7 {
+    display: block;
+  }
+  main .tag7 .sub7 img {
+    width: 100%;
+    margin-top: -1px;
+    padding-bottom: 3em;
+  }
+}
+@media (max-width: 400px) {
+  main .tag1 .main .sub1 {
+    width: 90%;
+    align-self: center;
+  }
+  main .tag1 .main .sub1 h1 {
+    font-size: 2em;
+  }
+  main .tag1 .main .sub1 .mini {
+    display: block;
+    align-items: center;
+  }
+  main .tag2 .sub2a img {
+    width: 70%;
+  }
+  main .tag4 {
+    display: block;
+  }
+  main .tag6 {
+    align-items: start;
+  }
+  main .tag6 .sub6a img {
+    width: 17em;
+  }
+  main .tag5 {
+    align-items: start;
+    text-align: start;
+  }
+  main .tag5 .sub5 img {
+    width: 20em;
+  }
+  main .tag7 {
+    display: block;
+  }
+}

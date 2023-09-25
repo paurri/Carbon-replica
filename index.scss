@@ -1,0 +1,235 @@
+@media (max-width: 1000px) {
+    header{
+        nav{
+            .nav1{
+                ul{
+                    display: none;
+                }
+                a{
+                    display: none;
+                }
+                i{
+                    display: inline;
+                    ul{
+                        display: none;
+                    }
+                }
+                i:hover ul{
+                    display: block;
+                }
+            }
+        }
+    }
+    main{
+        
+    }
+}
+@media (max-width: 773px){
+    header{
+        nav{
+            .nav1{
+                ul{
+                    display: none;
+                }
+                a{
+                    display: none;
+                }
+                i{
+                    ul{
+                        display: none;
+                    }
+                }
+                i:hover ul{
+                    display: block;
+                }
+            }
+            .nav{
+                ul{
+                    display: none;
+                }
+            }
+        }
+    }
+    main{
+        .tag1{
+            .main{
+                display: block;
+                text-align: center;
+            }
+        }
+        .tag2{
+            display: block;
+            text-align: center;
+        }
+        .tag3{
+            display: block;
+            .sub3{
+                border-right: none;
+                border-bottom: 1px solid;
+            }
+        }
+        .tag4{
+            display: block;
+            align-items: center;
+            .sub4a{
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+        .tag5{
+            display: block;
+            margin-top: 28em;
+            text-align: center;
+            padding-top: 3em;
+        }
+        .tag6{
+            display: block;
+        }
+        .tag7{
+            display: block;
+            .sub7{
+                img{
+                    width: 100%;
+                    margin-top: -1px;
+                    padding-bottom: 3em;
+                }
+            }
+        }
+        .tag8{
+            display: block;
+            .sub8{
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 650px){
+    main{
+        .tag5{
+            margin-top: 35em;
+        }
+    }
+}
+@media (max-width: 560px){
+    main{
+        .tag6{
+            .sub6a{
+                margin-top: 2em;
+                img{
+                    // height: 10em;
+                    width: 24em;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 510px){
+    main{
+        .tag1{
+            .main{
+                align-items: start;
+                .sub1a{
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+        .tag4{
+            display: block;
+            .sub4{
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+        .tag5{
+            align-items: start;
+            text-align: start;
+            .sub5a{
+                padding: 10px;
+                h3{
+                    font-size: 3em;
+                }
+            }
+            .sub5{
+                img{
+                    width: 20em;
+                    // float: left;
+                    margin-left: -2em;
+                }
+            }
+        }
+        .tag6{
+            align-items: start;
+            .sub6a{
+              img{
+                width: 20em;
+                // height: 15em;
+              }
+            }
+        }
+        .tag7{
+            display: block;
+            .sub7{
+                img{
+                    width: 100%;
+                    margin-top: -1px;
+                    padding-bottom: 3em;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 400px){
+    main{
+        .tag1{
+            .main{
+                .sub1{
+                    width: 90%;
+                    align-self: center;
+                    h1{
+                        font-size: 2em;
+                    }
+                    .mini{
+                        display: block;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        .tag2{
+            .sub2a{
+                img{
+                    width: 70%;
+                }
+            }
+        }
+        .tag4{
+            display: block;
+        }
+        
+        .tag6{
+            align-items: start;
+            .sub6a{
+              img{
+                width: 17em;
+                // height: 15em;
+              }
+            }
+        }
+        .tag5{
+            align-items: start;
+            text-align: start;
+            .sub5{
+                img{
+                    width: 20em;
+                }
+            }
+        }
+        .tag7{
+            display: block;
+        }
+    }
+}
