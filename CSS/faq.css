@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+header {
+  background-color: #2c1762;
+  position: sticky;
+  top: 0.0001em;
+}
+header nav {
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+header nav .nav {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+header nav .nav a {
+  text-decoration: none;
+}
+header nav .nav a img {
+  height: 5em;
+  width: 10em;
+}
+header nav .nav ul {
+  display: flex;
+  gap: 2em;
+}
+header nav .nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+}
+header nav .nav ul li a:hover {
+  color: red;
+}
+header nav .nav1 {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+header nav .nav1 i {
+  display: none;
+}
+header nav .nav1 ul {
+  display: flex;
+  gap: 2em;
+}
+header nav .nav1 ul li .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  margin-left: -15em;
+  padding: 1em;
+}
+header nav .nav1 ul li .dropdown ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
+header nav .nav1 ul li .dropdown ul li {
+  padding-bottom: 2px;
+}
+header nav .nav1 ul li .dropdown ul li .pee {
+  display: flex;
+  gap: 2em;
+}
+header nav .nav1 ul li .dropdown ul li .pee div h6 {
+  font-size: 1em;
+  color: black;
+}
+header nav .nav1 ul li .dropdown ul li .pee div p {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.375);
+  padding-bottom: 10px;
+}
+header nav .nav1 ul li .dropdown ul li:hover {
+  background-color: rgba(207, 8, 114, 0.474);
+  border-radius: 10px;
+  padding: 1em;
+}
+header nav .nav1 ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+}
+header nav .nav1 ul li a:hover {
+  color: red;
+}
+header nav .nav1 ul li:hover .dropdown {
+  display: grid;
+}
+header nav .nav1 .btn {
+  padding: 1em 2em;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  color: blue;
+}
+
+main .tag6 {
+  padding: 5em 3em;
+  text-align: center;
+  background-color: #edfced;
+  width: 85%;
+  margin: auto;
+  border-radius: 10px;
+}
+main .tag6 h5 {
+  font-size: 3em;
+  padding: 2px 10px 1em 10px;
+  color: #2c1762;
+}
+main .tag6 .cool {
+  border: none;
+  padding: 1.4em 1em;
+  background-color: #cf0871;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+main .tag6 .cool a {
+  padding: 1em;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-decoration: none;
+}
+main .tag6 .cool:hover {
+  background-image: linear-gradient(129deg, #2c1762, #cf0871);
+  padding: 1.5em 2em;
+}
+
+footer {
+  background-color: #2c1762;
+  margin-top: 5em;
+}
+footer .tag13 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 3em 0;
+  width: 80%;
+  margin: auto;
+  gap: 2em;
+}
+footer .tag13 div p {
+  color: #b48cfc;
+  padding-bottom: 3px;
+}
+footer .tag13 div a {
+  text-decoration: none;
+}
+footer .tag13 div a p {
+  color: #ffffff;
+  padding-bottom: 2px;
+}
+footer .tag13 div img {
+  width: 10em;
+  height: 5em;
+}
+footer .tag14 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3em;
+}
+footer .tag15 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2em;
+}
+footer .tag15 p {
+  color: #ffffff;
+  font-size: 10px;
+}
+footer .tag16 {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2em;
+}
+footer .tag16 p {
+  color: #ffffff;
+  font-size: 10px;
+}

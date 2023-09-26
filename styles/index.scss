@@ -103,6 +103,11 @@
             }
         }
     }
+    footer{
+        .tag13{
+            grid-template-columns: repeat(3, 2fr);
+        }
+    }
 }
 @media (max-width: 650px){
     main{
@@ -182,7 +187,7 @@
         }
     }
 }
-@media (max-width: 400px){
+@media (max-width: 420px){
     main{
         .tag1{
             .main{
@@ -230,6 +235,17 @@
         }
         .tag7{
             display: block;
+        }
+    }
+    footer{
+        .tag13{
+            grid-template-columns: 1fr;
+        }
+        .tag14{
+            display: block;
+            div{
+                padding-bottom: 2em;
+            }
         }
     }
 }

@@ -76,6 +76,9 @@
   main .tag8 .sub8 {
     display: none;
   }
+  footer .tag13 {
+    grid-template-columns: repeat(3, 2fr);
+  }
 }
 @media (max-width: 650px) {
   main .tag5 {
@@ -132,7 +135,7 @@
     padding-bottom: 3em;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   main .tag1 .main .sub1 {
     width: 90%;
     align-self: center;
@@ -165,5 +168,14 @@
   }
   main .tag7 {
     display: block;
+  }
+  footer .tag13 {
+    grid-template-columns: 1fr;
+  }
+  footer .tag14 {
+    display: block;
+  }
+  footer .tag14 div {
+    padding-bottom: 2em;
   }
 }
