@@ -109,53 +109,25 @@ header nav .nav1 .btn {
 }
 
 main .tag1 {
+  background-color: whitesmoke;
   display: flex;
-  align-items: start;
-  padding: 7em;
-  background-image: url(../images/faq.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: start;
-  margin-bottom: 6em;
+  align-items: center;
+  justify-content: space-around;
 }
-main .tag1 .text h1 {
+main .tag1 .sub1 h3 {
+  font-size: 3.5em;
+  font-family: Graphik, sans-serif;
   color: #2c1762;
-  font-size: 2.5em;
+  padding-bottom: 5px;
 }
-main .tag2 .accordion {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
+main .tag1 .sub1 p {
+  font-size: 1.4em;
+  line-height: 1.5em;
 }
-main .tag3 {
-  padding: 5em 3em;
-  text-align: center;
-  background-color: #edfced;
-  width: 85%;
-  margin: auto;
-  border-radius: 10px;
-}
-main .tag3 h5 {
-  font-size: 3em;
-  padding: 2px 10px 1em 10px;
-  color: #2c1762;
-}
-main .tag3 .cool {
-  border: none;
-  padding: 1.4em 1em;
-  background-color: #cf0871;
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 2em;
-}
-main .tag3 .cool a {
-  padding: 1em;
-  font-size: 1.5em;
-  color: #ffffff;
-  text-decoration: none;
-}
-main .tag3 .cool:hover {
-  background-image: linear-gradient(129deg, #2c1762, #cf0871);
-  padding: 1.5em 2em;
+main .tag1 .sub1 .img {
+  padding-top: 1em;
+  display: flex;
+  gap: 2em;
 }
 
 footer {
