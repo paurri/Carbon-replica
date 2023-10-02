@@ -1,27 +1,54 @@
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     header{
+        padding: 20px;
         nav{
+            label{
+                display: initial;
+            }
             .nav1{
+                position: absolute;
+                top: 100%; left: 0; right: 0;
+                background-color: green;
+                display: block;
+                display: none;
                 ul{
-                    display: none;
-                }
-                a{
-                    display: none;
-                }
-                i{
-                    display: inline;
-                    ul{
-                        display: none;
+                    display: block;
+                    padding-bottom: 3em;
+                    li{
+                      width: 80%;
+                      margin: auto;
+                      .dropdown{
+                        ul{
+                            position: relative;
+                            width: 100%;
+                            li{
+                                display: block;
+                            }
+                        }
+                      }
                     }
                 }
-                i:hover ul{
-                    display: block;
+                .btn{
+                    margin-left: 6em;
                 }
+            }
+            #menu-bar:checked .nav1{
+                display: block;
             }
         }
     }
     main{
         
+    }
+}
+@media (max-width: 970px){
+    main{
+        .tag1{
+            .main{
+                display: block;
+                text-align: center;
+            }
+        }
     }
 }
 @media (max-width: 773px){
@@ -102,6 +129,11 @@
                 display: none;
             }
         }
+        .tag9{
+            .sub9a{
+                display: block;
+            }
+        }
     }
     footer{
         .tag13{
@@ -113,6 +145,17 @@
     main{
         .tag5{
             margin-top: 35em;
+        }
+        .tag1{
+            .main{
+                display: block;
+                text-align: center;
+                .sub1a{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
         }
     }
 }
@@ -213,6 +256,11 @@
         }
         .tag4{
             display: block;
+            .sub4a{
+                img{
+                    width: 90%;
+                }
+            }
         }
         
         .tag6{

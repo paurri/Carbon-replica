@@ -3,158 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign_in page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="./CSS/signin.css">
-    <link rel="stylesheet" href="./CSS/downloadmedia.css">
+    <title>Credit-Report</title>
+    <link rel="stylesheet" href="./CSS/credit.css">
+    <link rel="stylesheet" href="./CSS/creditmedia.css">
 </head>
 <body>
-     <!-- =====================================================
+    <!-- =====================================================
                          header
 ========================================================== -->
 <header>
     <nav>
         <div class="nav">
-           <a href="./index.html">
-            <img src="./images/first_img.webp" alt="">
-           </a>
+            <a href="./index.html">
+                <img src="./images/first_img.webp" alt="">
+            </a>
             <ul>
                 <li><a href="#" style="color: #b48cfc;">Personal</a></li>
                 <li><a href="#">Business</a></li>
             </ul>
         </div>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu<i class="fa-solid fa-bars" style="color: #f9fafa;"></i>
+        </label>
         <div class="nav1">
-            <i class="fa-solid fa-bars" style="color: #f9fafa;">
-                <ul>
-                    <li><a href="#">Features</a>
-                        <div class="dropdown">
-                            <ul>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Loans</h6>
-                                        <p>Instant loan when ever you need it</p>
-                                    </div>
-                                    
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Payments</h6>
-                                        <p>All your payments, in one place</p>
-                                    </div>
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Cardon Zero</h6>
-                                        <p>Buy now, Pay later</p>
-                                    </div>
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Savings</h6>
-                                        <p>Earn returns on saving on Carbon</p>
-                                    </div>
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Cards</h6>
-                                        <p>Online and Offline payment with cards</p>
-                                    </div>
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Credit reports</h6>
-                                        <p>Keep track of your credit history</p>
-                                    </div>
-                                </a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Companies</a>
-                        <div class="dropdown">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>About us</h6>
-                                            <p>Providing financial access to everyone</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Blog</h6>
-                                            <p>Get Carbon news and update</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Careers</h6>
-                                            <p>Build the best bank in africa</p>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Loan Calculators</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Help</a>
-                        <div class="dropdown">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>knowledge base</h6>
-                                            <p>Get answers to common issues</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Contacts</h6>
-                                            <p>Like to reach out? Get in touch with us</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Community</h6>
-                                            <p>Join our community and get updated</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                   <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Report account</h6>
-                                            <p>Repory suspicious activities on your account</p>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </i>
             <ul>
                 <li><a href="#">Features</a>
                     <div class="dropdown">
@@ -205,7 +76,7 @@
                                     </div>
                                 </div>
                             </a></li>
-                            <li><a href="./credit_report.html">
+                            <li><a href="#">
                                     <div class="pee">
                                         <div><img src="./images/credit report.svg" alt=""></div>
                                     <div>
@@ -243,7 +114,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="3">
                                     <div class="pee">
                                             <div><img src="./images/career.svg" alt=""></div>
                                         <div>
@@ -309,72 +180,99 @@
                     </div>
                 </li>
             </ul>
-            <a href="#" class="btn btn-success p-2 ">Sign Up</a>
+            <a href="./download.html" class="btn btn-success p-2 ">Sign Up</a>
         </div>
     </nav>
 </header>
 <!-- ===============================================================
                     end of header
 =============================================================== -->
-    <main>
-        <!-- ===============================================================
-                    section 1
-=================================================================== -->
-            <section class="tag1">
-                    <div class="sub1">
-                        <h3>You’ll need your phone <br> for that    </h3>
-                        <p>Open the camera on your phone and scan the QR code, or tap</p>
-                        <p>the button below on your phone.</p>
-                        <div class="img">
-                            <img src="./images/Google Play Store icon.svg" alt="">
-                            <img src="./images/Store icon.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="sub1a">
-                        <img src="./images/Capture15.PNG" alt="">
-                    </div>
-            </section>
-            <section class="tag2">
-              <div class="sub2">
-                <h3>
-                    Getting started with the <br> Carbon app
-                </h3>
+
+
+
+<!-- ===============================================================
+                    heropage
+=============================================================== -->
+
+
+<!-- ===============================================================
+                    section1
+=============================================================== -->
+<main>
+    <section class="tag1">
+        <div class="sub1">
+            <h3>See how your <br> <span>credit</span> is doing</h3>
+            <p>Know your credit history across financial institutions and be notified of issues you may be having. Contact the credit bureaus directly to further understand and resolve any issues.</p>
+        </div>
+        <img src="./images/credit report hero-p-500.webp" alt="">
+    </section>
+    <section class="tag2">
+        <div class="sub2">
+            <h3>Get free access to your <br> reports</h3>
+            <p>We want every customer to know where they stand when <br> applying for loans with us or anywhere else. This is why <br> we provide you with a credit report at no extra cost.</p>
+        </div>
+        <img src="./images/credit report feature 1.webp" alt="">
+    </section>
+    <section class="tag3">
+        <img src="./images/credit report feature 2-p-800.webp" alt="">
+        <div class="sub3">
+            <h3>Be the first to know  if there <br> are any issues</h3>
+            <p>Should you be worried about anything? The Carbon app dashboard shows you a list <br> of issues that requires fixing with <br> your credit if there are any.</p>
+        </div>
+    </section>
+    <section class="tag4">
+        <div class="sub4">
+            <h3>Learn how to interpret your <br> credit report</h3>
+            <p>If you’re encountering credit reports for the first time, we’ve <br> got you. Our comprehensive guide teaches you the basics of <br> obtaining and interpreting a credit report in Nigeria.</p>
+            <button class="cool">
+                <a href="#">Read more</a>
+            </button>
+        </div>
+        <img src="./images/credit report feature 3-p-500.webp" alt="">
+    </section>
+    <section class="tag5">
+        <div class="sub5">
+          <h3>
+              Getting started with the <br> Carbon app
+          </h3>
+        </div>
+        <div class="sub5a">
+          <div class="app">
+              <div class="number">
+                  <p>01</p>
               </div>
-              <div class="sub2a">
-                <div class="app">
-                    <div class="number">
-                        <p>01</p>
-                    </div>
-                    <h5>Download the app</h5>
-                    <p>Get the Carbon App on Google Play Store <br> for Android or App Store for iOS.</p>
-                    <div class="pink">
-                        <img class="google" src="./images/Google Play Store icon.svg" alt=""> <br>
-                        <img src="./images/Store icon.svg" alt="">
-                    </div>
-                </div>
-                <div class="app1">
-                    <div class="number2">
-                        <p>02</p>
-                    </div>
-                    <h5>Register within minutes</h5>
-                    <p>Tell us a few details about you to help us <br> create your Carbon account quickly.</p>
-                    <div class="pink1">
-                        <img src="./images/create.webp" alt="">
-                    </div>
-                </div>
-                <div class="app1">
-                    <div class="number2">
-                        <p>03</p>
-                    </div>
-                    <h5>Register within minutes</h5>
-                    <p>You’re ready to go. Carry out all your <br> banking transactions within the app.</p>
-                    <div class="pink1">
-                        <img src="./images/step 3.webp" alt="">
-                    </div>
-                </div>
+              <h5>Download the app</h5>
+              <p>Get the Carbon App on Google Play Store <br> for Android or App Store for iOS.</p>
+              <div class="pink">
+                  <img class="google" src="./images/Google Play Store icon.svg" alt=""> <br>
+                  <img src="./images/Store icon.svg" alt="">
               </div>
-            </section>
-    </main>
+          </div>
+          <div class="app1">
+              <div class="number2">
+                  <p>02</p>
+              </div>
+              <h5>Register within minutes</h5>
+              <p>Tell us a few details about you to help us <br> create your Carbon account quickly.</p>
+              <div class="pink1">
+                  <img src="./images/create.webp" alt="">
+              </div>
+          </div>
+          <div class="app1">
+              <div class="number2">
+                  <p>03</p>
+              </div>
+              <h5>Register within minutes</h5>
+              <p>You’re ready to go. Carry out all your <br> banking transactions within the app.</p>
+              <div class="pink1">
+                  <img src="./images/step 3.webp" alt="">
+              </div>
+          </div>
+        </div>
+      </section>
+</main>
+
+
 
 
 <footer>
@@ -441,5 +339,4 @@
     </section>
 </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>

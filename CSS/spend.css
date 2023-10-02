@@ -19,15 +19,22 @@ header nav {
   justify-content: space-between;
   padding: 5px;
 }
+header nav #menu-bar {
+  display: none;
+}
+header nav label {
+  cursor: pointer;
+  display: none;
+}
+header nav i {
+  display: none;
+}
 header nav .nav {
   display: flex;
   align-items: center;
   gap: 2em;
 }
-header nav .nav a {
-  text-decoration: none;
-}
-header nav .nav a img {
+header nav .nav img {
   height: 5em;
   width: 10em;
 }
@@ -47,6 +54,13 @@ header nav .nav1 {
   display: flex;
   align-items: center;
   gap: 2em;
+}
+header nav .nav1 #menu-bar {
+  display: none;
+}
+header nav .nav1 label {
+  cursor: pointer;
+  display: none;
 }
 header nav .nav1 i {
   display: none;
@@ -109,125 +123,190 @@ header nav .nav1 .btn {
 }
 
 main .tag1 {
-  background-color: whitesmoke;
+  background-color: #2c1762;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
 }
-main .tag1 .sub1 h3 {
-  font-size: 3.5em;
-  font-family: Graphik, sans-serif;
-  color: #2c1762;
-  padding-bottom: 5px;
+main .tag1 .sub1 {
+  padding: 3em 0;
+}
+main .tag1 .sub1 h2 {
+  font-size: 4em;
+  color: #ffffff;
+  padding-bottom: 8px;
+}
+main .tag1 .sub1 h2 span {
+  background-image: linear-gradient(129deg, #ffffff, #cf0871);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 main .tag1 .sub1 p {
-  font-size: 1.4em;
-  line-height: 1.5em;
+  font-size: 1.8em;
+  color: #ffffff;
+  padding-bottom: 1em;
 }
-main .tag1 .sub1 .img {
-  padding-top: 1em;
+main .tag1 .sub1 .cool {
+  border: none;
+  padding: 1.4em 1em;
+  background-color: #cf0871;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+main .tag1 .sub1 .cool a {
+  padding: 1em;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-decoration: none;
+}
+main .tag1 .sub1 .cool:hover {
+  background-image: linear-gradient(129deg, #2c1762, #cf0871);
+  padding: 1.5em 2em;
+}
+main .tag1 .sub1a #img {
+  height: 25em;
+  width: 25em;
+}
+main .tag1 .sub1a .img {
+  height: 10em;
+  width: 15em;
+  margin-left: -15em;
+}
+main .tag2 {
   display: flex;
-  gap: 2em;
+  justify-content: space-around;
 }
 main .tag2 .sub2 {
   padding-top: 5em;
-  padding-left: 7em;
 }
 main .tag2 .sub2 h3 {
-  font-size: 3em;
   color: #2c1762;
+  font-size: 3.5em;
+  padding-bottom: 8px;
+}
+main .tag2 .sub2 p {
+  font-size: 1.5em;
+  line-height: 1.3em;
 }
 main .tag2 .sub2a {
+  padding: 3em 0;
+}
+main .tag2 .sub2a img {
+  width: 20em;
+}
+main .tag3 {
+  width: 90%;
+  margin: auto;
+}
+main .tag3 h2 {
+  font-size: 3.5em;
+  color: #2c1762;
+  padding-bottom: 1em;
+}
+main .tag3 .pee {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+main .tag3 .pee .sub3 {
+  display: inherit;
+  gap: 1em;
+}
+main .tag3 .pee .sub3 img {
+  height: 5em;
+}
+main .tag3 .pee .sub3 div h5 {
+  color: #2c1762;
+  font-size: 1.5em;
+  padding-bottom: 3px;
+}
+main .tag3 .pee .sub3 div p {
+  font-size: large;
+}
+main .tag4 {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5em 0;
+  margin-top: 4em;
+}
+main .tag4 .sub4a h2 {
+  color: #2c1762;
+  font-size: xx-large;
+  padding-bottom: 5px;
+}
+main .tag4 .sub4a p {
+  font-size: larger;
+}
+main .tag5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 85%;
   margin: auto;
-  margin-top: 5em;
 }
-main .tag2 .sub2a .app {
-  border-radius: 10px;
-  box-shadow: 2px 2px 3px black;
-}
-main .tag2 .sub2a .app .number {
-  background-color: #2c1762;
-  border-radius: 100%;
-  width: 10%;
-  text-align: center;
-  margin: 10px 10px;
-}
-main .tag2 .sub2a .app .number p {
-  color: #ffffff;
-  padding: 5px;
-}
-main .tag2 .sub2a .app h5 {
-  font-size: 1.5em;
+main .tag5 .sub5 h2 {
   color: #2c1762;
-  font-family: Graphik, sans-serif;
-  padding-bottom: 12px;
-  padding-left: 12px;
+  font-size: 3em;
+  padding-bottom: 5px;
 }
-main .tag2 .sub2a .app p {
-  font-family: Graphik, sans-serif;
-  line-height: 1.4em;
-  padding-bottom: 4em;
-  padding-left: 10px;
-  padding-right: 3em;
+main .tag5 .sub5 p {
+  font-size: 1.5em;
 }
-main .tag2 .sub2a .app .pink {
-  padding-top: 3em;
-  display: block;
-  text-align: center;
-  background-color: #cf0871;
-  padding-bottom: 3em;
-}
-main .tag2 .sub2a .app .pink .google {
-  padding-bottom: 1.2em;
-}
-main .tag2 .sub2a .app1 {
-  border-radius: 10px;
-  box-shadow: 2px 2px 3px black;
-}
-main .tag2 .sub2a .app1 .number2 {
-  background-color: #2c1762;
-  border-radius: 100%;
-  width: 10%;
-  text-align: center;
-  margin: 10px 10px;
-  height: 2em;
+main .tag6 {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  background-color: #fffeaf;
+  padding: 4em 7em;
+  gap: 9em;
+  margin-bottom: 3em;
 }
-main .tag2 .sub2a .app1 .number2 p {
-  color: #ffffff;
-  padding: 5px;
-}
-main .tag2 .sub2a .app1 h5 {
-  font-size: 1.5em;
+main .tag6 .sub6 h2 {
   color: #2c1762;
-  font-family: Graphik, sans-serif;
-  padding-bottom: 12px;
-  padding-left: 12px;
+  font-size: 3em;
+  padding-bottom: 5px;
 }
-main .tag2 .sub2a .app1 p {
-  font-family: Graphik, sans-serif;
-  line-height: 1.4em;
-  padding-bottom: 4em;
-  padding-left: 10px;
-  padding-right: 3em;
+main .tag6 .sub6 p {
+  font-size: 1.5em;
 }
-main .tag2 .sub2a .app1 .pink1 {
-  padding-top: 8px;
-  display: block;
+main .tag7 {
   text-align: center;
-  background-color: #cf0871;
+  padding: 5em 0;
+  border-radius: 10px;
+  background-color: #ffe5f1;
+  width: 85%;
+  margin: auto;
 }
-main .tag2 .sub2a .app1 .pink1 img {
-  height: 15em;
+main .tag7 h1 {
+  font-size: 3em;
+  color: #2c1762;
+  padding-bottom: 1em;
+}
+main .tag7 .cool {
+  border: none;
+  padding: 1.4em 1em;
+  background-color: #cf0871;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+main .tag7 .cool a {
+  padding: 1em;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-decoration: none;
+}
+main .tag7 .cool:hover {
+  background-image: linear-gradient(129deg, #2c1762, #cf0871);
+  padding: 1.5em 2em;
 }
 
 footer {
   background-color: #2c1762;
-  margin-top: 5em;
+  margin-top: 3em;
 }
 footer .tag13 {
   display: grid;

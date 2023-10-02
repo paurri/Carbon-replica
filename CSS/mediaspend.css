@@ -1,0 +1,112 @@
+@media (max-width: 1000px) {
+  header nav .nav1 ul {
+    display: none;
+  }
+  header nav .nav1 a {
+    display: none;
+  }
+  header nav .nav1 i {
+    display: inline;
+  }
+  header nav .nav1 i ul {
+    display: none;
+  }
+  header nav .nav1 i:hover ul {
+    display: block;
+  }
+}
+@media (max-width: 773px) {
+  header nav .nav1 ul {
+    display: none;
+  }
+  header nav .nav1 a {
+    display: none;
+  }
+  header nav .nav1 i ul {
+    display: none;
+  }
+  header nav .nav1 i:hover ul {
+    display: block;
+  }
+  header nav .nav ul {
+    display: none;
+  }
+  main .tag1 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  main .tag2 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  main .tag4 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  main .tag5 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  main .tag6 {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  footer .tag13 {
+    grid-template-columns: repeat(3, 2fr);
+  }
+}
+@media (max-width: 500px) {
+  main .tag6 img {
+    width: 15em;
+  }
+}
+@media (max-width: 700px) {
+  main .tag3 .pee {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  main .tag1 {
+    display: block;
+    align-items: start;
+    text-align: start;
+  }
+  main .tag2 {
+    display: block;
+    align-items: start;
+    text-align: start;
+  }
+  main .tag4 {
+    display: block;
+    align-items: start;
+    text-align: start;
+  }
+  main .tag4 .sub4 img {
+    width: 15em;
+  }
+  main .tag5 {
+    display: block;
+    align-items: start;
+    text-align: start;
+  }
+  main .tag6 {
+    display: block;
+    align-items: start;
+    text-align: start;
+  }
+  footer .tag13 {
+    grid-template-columns: 1fr;
+  }
+  footer .tag14 {
+    display: block;
+  }
+  footer .tag14 div {
+    padding-bottom: 2em;
+  }
+}

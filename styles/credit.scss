@@ -21,17 +21,24 @@ header{
      align-items: center;
      justify-content: space-between;
      padding: 5px;
+     #menu-bar{
+        display: none;
+    }
+    label{
+        cursor: pointer;
+        display: none;
+    }
+    i{
+        display: none;
+    }
      .nav{
         display: flex;
         align-items: center;
         gap: 2em;
-       a{
-        text-decoration: none;
         img{
             height: 5em;
             width: 10em;
         }
-       }
         ul{
             display: flex;
             gap: 2em;
@@ -51,6 +58,13 @@ header{
             display: flex;
             align-items: center;
             gap: 2em;
+            #menu-bar{
+                display: none;
+            }
+            label{
+                cursor: pointer;
+                display: none;
+            }
             i{
                 display: none;
             }
@@ -120,36 +134,132 @@ header{
 // ===============================================================
 //                     end of header
 // ===============================================================
-// ========================================================
-//                          section 1
-// ============================================================
+
+
+// ===============================================================
+//                     hero page
+// ===============================================================
+
+
+// ===============================================================
+//                     section1
+// ===============================================================
 main{
     .tag1{
-        background-color: whitesmoke;
+        background-color: $primary-color;
         display: $display;
+        justify-content: center;
         align-items: center;
-        justify-content: space-around;
-      .sub1{
-        h3{
-            font-size: 3.5em;
-            font-family: Graphik,sans-serif;
-            color: $primary-color;
-            padding-bottom: 5px;
+        img{
+            
         }
-        p{
-            font-size: 1.4em;
-            line-height: 1.5em;
-            // padding-top: 10px;
+        .sub1{
+              padding: 3em 0;
+              h3{
+                  font-size: 4em;
+                  color: $text;
+                  padding-bottom: 8px;
+                  span{
+                      background-image: linear-gradient(129deg, $text, $main-color);
+                      -webkit-text-fill-color: transparent;
+                      -webkit-background-clip: text;
+                  }
+              }
+              p{
+                  font-size: 1.8em;
+                  color: $text;
+                  padding-bottom: 1em;
+              }
         }
-        .img{
-            padding-top: 1em;
-            display: flex;
-            gap: 2em;
-        }
-      }
     }
     .tag2{
+        display: $display;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5em 0;
         .sub2{
+            // padding-left: 5em;
+            h3{
+                color: $primary-color;
+                font-size: 3em;
+                padding-bottom: 5px;
+            }
+            p{
+                font-size: 1.2em;
+            }
+        }
+        img{
+            width: 20em;
+            height: 20em;
+            // padding-right: 10em;
+        }
+    }
+    .tag3{
+        display: $display;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5em 0;
+        background-color: aliceblue;
+        .sub3{
+            // padding-right: 5em;
+            h3{
+                color: $primary-color;
+                font-size: 3em;
+                padding-bottom: 5px;
+            }
+            p{
+                font-size: 1.2em;
+            }
+        }
+        img{
+            width: 20em;
+            height: 20em;
+            // padding-right: 10em;
+        }
+    }
+    .tag4{
+        display: $display;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5em 0;
+        background-color: aliceblue;
+        .sub4{
+            // padding-right: 5em;
+            h3{
+                color: $primary-color;
+                font-size: 3em;
+                padding-bottom: 5px;
+            }
+            p{
+                font-size: 1.2em;
+                padding-bottom: 1em;
+            }
+            .cool{
+                border: none;
+                padding: 1.4em 1em;
+                background-color: $main-color;
+                border-radius: 10px;
+                text-align: center;
+                a{
+                    padding: 1em;
+                    font-size: 1.5em;
+                    color: $text;
+                    text-decoration: none;
+                }
+               }
+               .cool:hover{
+                background-image: linear-gradient(129deg, $primary-color, $main-color);
+                padding: 1.5em 2em;
+               }
+        }
+        img{
+            width: 20em;
+            height: 20em;
+            // padding-right: 10em;
+        }
+    }
+    .tag5{
+        .sub5{
             padding-top: 5em;
             padding-left: 7em;
             h3{
@@ -157,7 +267,7 @@ main{
                 color: $primary-color;
             }
         }
-        .sub2a{
+        .sub5a{
             display: $display;
             align-items: center;
             justify-content: space-around;
@@ -251,11 +361,12 @@ main{
 
 
 
-
-
+// ========================================================
+//                          footer
+// ============================================================
 footer{
     background-color: $primary-color;
-    margin-top: 5em;
+    margin-top: 3em;
 // ========================================================
 //                          section 13
 // ============================================================

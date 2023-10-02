@@ -33,8 +33,27 @@
   }
   main .tag1 {
     display: block;
+    text-align: center;
   }
-  main .tag2 .sub2a {
+  main .tag2 {
+    display: block;
+    text-align: center;
+  }
+  main .tag3 {
+    display: block;
+    text-align: center;
+  }
+  main .tag3 .sub3 {
+    padding-right: 0;
+  }
+  main .tag4 {
+    display: block;
+    text-align: center;
+  }
+  main .tag4 .sub4 {
+    padding-right: 0;
+  }
+  main .tag5 .sub5a {
     display: block;
   }
   footer .tag13 {

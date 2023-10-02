@@ -21,17 +21,24 @@ header{
      align-items: center;
      justify-content: space-between;
      padding: 5px;
+     #menu-bar{
+        display: none;
+    }
+    label{
+        cursor: pointer;
+        display: none;
+    }
+    i{
+        display: none;
+    }
      .nav{
         display: flex;
         align-items: center;
         gap: 2em;
-       a{
-        text-decoration: none;
         img{
             height: 5em;
             width: 10em;
         }
-       }
         ul{
             display: flex;
             gap: 2em;
@@ -51,6 +58,13 @@ header{
             display: flex;
             align-items: center;
             gap: 2em;
+            #menu-bar{
+                display: none;
+            }
+            label{
+                cursor: pointer;
+                display: none;
+            }
             i{
                 display: none;
             }
@@ -120,142 +134,222 @@ header{
 // ===============================================================
 //                     end of header
 // ===============================================================
-// ========================================================
-//                          section 1
-// ============================================================
+
+
+// ===============================================================
+//                     hero page
+// ===============================================================
+
+
+// ===============================================================
+//                     section1
+// ===============================================================
 main{
     .tag1{
-        background-color: whitesmoke;
-        display: $display;
-        align-items: center;
-        justify-content: space-around;
-      .sub1{
-        h3{
-            font-size: 3.5em;
-            font-family: Graphik,sans-serif;
-            color: $primary-color;
-            padding-bottom: 5px;
+       background-color: $primary-color;
+       display: $display;
+       justify-content: space-around;
+       align-items: center;
+        .sub1{
+            // padding-left: 5em;
+            padding: 3em 0;
+            h2{
+                font-size: 4em;
+                color: $text;
+                padding-bottom: 8px;
+                span{
+                    background-image: linear-gradient(129deg, $text, $main-color);
+                    -webkit-text-fill-color: transparent;
+                    -webkit-background-clip: text;
+                }
+            }
+            p{
+                font-size: 1.8em;
+                color: $text;
+                padding-bottom: 1em;
+            }
+            .cool{
+                border: none;
+                padding: 1.4em 1em;
+                background-color: $main-color;
+                border-radius: 10px;
+                text-align: center;
+                margin-bottom: 2em;
+                a{
+                    padding: 1em;
+                    font-size: 1.5em;
+                    color: $text;
+                    text-decoration: none;
+                }
+            }
+            .cool:hover{
+                background-image: linear-gradient(129deg, $primary-color, $main-color);
+                padding: 1.5em 2em;
+            }
         }
-        p{
-            font-size: 1.4em;
-            line-height: 1.5em;
-            // padding-top: 10px;
+        .sub1a{
+            #img{
+                height: 25em;
+                width: 25em;
+                // padding-top: 5em;
+            }
+            .img{
+                height: 10em;
+                width: 15em;
+                margin-left: -15em;
+            }
         }
-        .img{
-            padding-top: 1em;
-            display: flex;
-            gap: 2em;
-        }
-      }
     }
     .tag2{
+        display: $display;
+        justify-content: space-around;
+        // align-items: center;
         .sub2{
             padding-top: 5em;
-            padding-left: 7em;
             h3{
-                font-size: 3em;
                 color: $primary-color;
+                font-size: 3.5em;
+                padding-bottom: 8px;
+            }
+            p{
+                font-size: 1.5em;
+                line-height: 1.3em;
             }
         }
         .sub2a{
-            display: $display;
+            padding: 3em 0;
+            img{
+                width: 20em;
+            }
+        }
+    }
+    .tag3{
+        width: 90%;
+        margin: auto;
+        h2{
+            font-size: 3.5em;
+            color: $primary-color;
+            // padding-left: 2em;
+            padding-bottom: 1em;
+        }
+        .pee{
+            display: flex;
             align-items: center;
             justify-content: space-around;
-            width: 85%;
-            margin: auto;
-            margin-top: 5em;
-            .app{
-                border-radius: 10px;
-                box-shadow: 2px 2px 3px black;
-                .number{
-                    background-color: $primary-color;
-                    border-radius: 100%;
-                    width: 10%;
-                    text-align: center;
-                    margin: 10px 10px;
+            .sub3{
+                display: inherit;
+                gap: 1em;
+                img{
+                    height: 5em;
+                }
+                div{
+                    h5{
+                        color: $primary-color;
+                        font-size: 1.5em;
+                        padding-bottom: 3px;
+                    }
                     p{
-                        color: $text;
-                        padding: 5px;
-                    }
-                }
-                h5{
-                    font-size: 1.5em;
-                    color: $primary-color;
-                    font-family:  Graphik,sans-serif;
-                    padding-bottom: 12px;
-                    padding-left: 12px;
-                }
-                p{
-                    font-family:  Graphik,sans-serif;
-                    line-height: 1.4em;
-                    padding-bottom: 4em;
-                    padding-left: 10px;
-                    padding-right: 3em;
-                }
-                .pink{
-                    padding-top: 3em;
-                    display: block;
-                    text-align: center;
-                    background-color: $main-color;
-                    padding-bottom: 3em;
-                    .google{
-                        padding-bottom: 1.2em;
-                    }
-                }
-            }
-            .app1{
-                border-radius: 10px;
-                box-shadow: 2px 2px 3px black;
-                .number2{
-                    background-color: $primary-color;
-                    border-radius: 100%;
-                    width: 10%;
-                    text-align: center;
-                    margin: 10px 10px;
-                    height: 2em;
-                    align-items: center;
-                    p{
-                        color: $text;
-                        padding: 5px;
-                    }
-                }
-                h5{
-                    font-size: 1.5em;
-                    color: $primary-color;
-                    font-family:  Graphik,sans-serif;
-                    padding-bottom: 12px;
-                    padding-left: 12px;
-                }
-                p{
-                    font-family:  Graphik,sans-serif;
-                    line-height: 1.4em;
-                    padding-bottom: 4em;
-                    padding-left: 10px;
-                    padding-right: 3em;
-                }
-                .pink1{
-                    padding-top: 8px;
-                    display: block;
-                    text-align: center;
-                    background-color: $main-color;
-                    // padding-bottom: 1em;
-                    img{
-                        // padding-bottom: 1.2em;
-                        height: 15em;
+                        font-size: large;
                     }
                 }
             }
         }
     }
+    .tag4{
+        background-color: aliceblue;
+        // width: 80%;
+        // margin: auto;
+        display: $display;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5em 0;
+        margin-top: 4em;
+        .sub4a{
+            h2{
+                color: $primary-color;
+                font-size: xx-large;
+                padding-bottom: 5px;
+            }
+            p{
+                font-size: larger;
+            }
+        }
+    }
+    .tag5{
+        display: $display;
+        justify-content: space-around;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+        
+        .sub5{
+            h2{
+                color: $primary-color;
+                font-size: 3em;
+                padding-bottom: 5px;
+            }
+            p{
+                font-size: 1.5em;
+            }
+        }
+    }
+    .tag6{
+        display: $display;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fffeaf;
+        padding: 4em 7em;
+        gap: 9em;
+        margin-bottom: 3em;
+        .sub6{
+            h2{
+                color: $primary-color;
+                font-size: 3em;
+                padding-bottom: 5px;
+            }
+            p{
+                font-size: 1.5em;
+            }
+        }
+    }
+    .tag7{
+        text-align: center;
+        padding: 5em 0;
+        border-radius: 10px;
+        background-color: #ffe5f1;
+        width: 85%;
+        margin: auto;
+        h1{
+            font-size: 3em;
+            color: $primary-color;
+            padding-bottom: 1em;
+        }
+        .cool{
+            border: none;
+            padding: 1.4em 1em;
+            background-color: $main-color;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 2em;
+            a{
+                padding: 1em;
+                font-size: 1.5em;
+                color: $text;
+                text-decoration: none;
+            }
+        }
+        .cool:hover{
+            background-image: linear-gradient(129deg, $primary-color, $main-color);
+            padding: 1.5em 2em;
+        }
+    }
 }
-
-
-
-
-
+// ========================================================
+//                          footer
+// ============================================================
 footer{
     background-color: $primary-color;
-    margin-top: 5em;
+    margin-top: 3em;
 // ========================================================
 //                          section 13
 // ============================================================

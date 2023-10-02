@@ -21,6 +21,16 @@ header{
      align-items: center;
      justify-content: space-between;
      padding: 5px;
+     #menu-bar{
+        display: none;
+    }
+    label{
+        cursor: pointer;
+        display: none;
+    }
+    i{
+        display: none;
+    }
      .nav{
         display: flex;
         align-items: center;
@@ -48,6 +58,13 @@ header{
             display: flex;
             align-items: center;
             gap: 2em;
+            #menu-bar{
+                display: none;
+            }
+            label{
+                cursor: pointer;
+                display: none;
+            }
             i{
                 display: none;
             }
@@ -518,6 +535,105 @@ main{
         img{
             height: 10em;
             margin-left: 7em;
+        }
+    }
+}
+.tag9{
+    .sub9{
+        padding-top: 5em;
+        padding-left: 7em;
+        h3{
+            font-size: 3em;
+            color: $primary-color;
+        }
+    }
+    .sub9a{
+        display: $display;
+        align-items: center;
+        justify-content: space-around;
+        width: 85%;
+        margin: auto;
+        margin-top: 5em;
+        .app{
+            border-radius: 10px;
+            box-shadow: 2px 2px 3px black;
+            .number{
+                background-color: $primary-color;
+                border-radius: 100%;
+                width: 10%;
+                text-align: center;
+                margin: 10px 10px;
+                p{
+                    color: $text;
+                    padding: 5px;
+                }
+            }
+            h5{
+                font-size: 1.5em;
+                color: $primary-color;
+                font-family:  Graphik,sans-serif;
+                padding-bottom: 12px;
+                padding-left: 12px;
+            }
+            p{
+                font-family:  Graphik,sans-serif;
+                line-height: 1.4em;
+                padding-bottom: 4em;
+                padding-left: 10px;
+                padding-right: 3em;
+            }
+            .pink{
+                padding-top: 3em;
+                display: block;
+                text-align: center;
+                background-color: $main-color;
+                padding-bottom: 3em;
+                .google{
+                    padding-bottom: 1.2em;
+                }
+            }
+        }
+        .app1{
+            border-radius: 10px;
+            box-shadow: 2px 2px 3px black;
+            .number2{
+                background-color: $primary-color;
+                border-radius: 100%;
+                width: 10%;
+                text-align: center;
+                margin: 10px 10px;
+                height: 2em;
+                align-items: center;
+                p{
+                    color: $text;
+                    padding: 5px;
+                }
+            }
+            h5{
+                font-size: 1.5em;
+                color: $primary-color;
+                font-family:  Graphik,sans-serif;
+                padding-bottom: 12px;
+                padding-left: 12px;
+            }
+            p{
+                font-family:  Graphik,sans-serif;
+                line-height: 1.4em;
+                padding-bottom: 4em;
+                padding-left: 10px;
+                padding-right: 3em;
+            }
+            .pink1{
+                padding-top: 8px;
+                display: block;
+                text-align: center;
+                background-color: $main-color;
+                // padding-bottom: 1em;
+                img{
+                    // padding-bottom: 1.2em;
+                    height: 15em;
+                }
+            }
         }
     }
 }

@@ -50,9 +50,28 @@
     main{
         .tag1{
             display: block;
+            text-align: center;
         }
         .tag2{
-            .sub2a{
+            display: block;
+            text-align: center;
+        }
+        .tag3{
+            display: block;
+            text-align: center;
+            .sub3{
+                padding-right: 0;
+            }
+        }
+        .tag4{
+            display: block;
+            text-align: center;
+            .sub4{
+                padding-right: 0;
+            }
+        }
+        .tag5{
+            .sub5a{
                 display: block;
             }
         }

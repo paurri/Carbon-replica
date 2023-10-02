@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign_in page</title>
+    <title>Loan</title>
+    <link rel="stylesheet" href="./CSS/spend.css">
+    <link rel="stylesheet" href="./CSS/mediaspend.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="./CSS/signin.css">
-    <link rel="stylesheet" href="./CSS/downloadmedia.css">
 </head>
 <body>
      <!-- =====================================================
@@ -16,145 +16,18 @@
 <header>
     <nav>
         <div class="nav">
-           <a href="./index.html">
-            <img src="./images/first_img.webp" alt="">
-           </a>
+            <a href="./index.html">
+                <img src="./images/first_img.webp" alt="">
+            </a>
             <ul>
                 <li><a href="#" style="color: #b48cfc;">Personal</a></li>
                 <li><a href="#">Business</a></li>
             </ul>
         </div>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu<i class="fa-solid fa-bars" style="color: #f9fafa;"></i>
+        </label>
         <div class="nav1">
-            <i class="fa-solid fa-bars" style="color: #f9fafa;">
-                <ul>
-                    <li><a href="#">Features</a>
-                        <div class="dropdown">
-                            <ul>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Loans</h6>
-                                        <p>Instant loan when ever you need it</p>
-                                    </div>
-                                    
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Payments</h6>
-                                        <p>All your payments, in one place</p>
-                                    </div>
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Cardon Zero</h6>
-                                        <p>Buy now, Pay later</p>
-                                    </div>
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Savings</h6>
-                                        <p>Earn returns on saving on Carbon</p>
-                                    </div>
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Cards</h6>
-                                        <p>Online and Offline payment with cards</p>
-                                    </div>
-                                </a></li>
-                                <li><a href="#">
-                                    <div><img src="" alt=""></div>
-                                    <div>
-                                        <h6>Credit reports</h6>
-                                        <p>Keep track of your credit history</p>
-                                    </div>
-                                </a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Companies</a>
-                        <div class="dropdown">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>About us</h6>
-                                            <p>Providing financial access to everyone</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Blog</h6>
-                                            <p>Get Carbon news and update</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Careers</h6>
-                                            <p>Build the best bank in africa</p>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Loan Calculators</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Help</a>
-                        <div class="dropdown">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>knowledge base</h6>
-                                            <p>Get answers to common issues</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Contacts</h6>
-                                            <p>Like to reach out? Get in touch with us</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Community</h6>
-                                            <p>Join our community and get updated</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                   <a href="#">
-                                        <div><img src="" alt=""></div>
-                                        <div>
-                                            <h6>Report account</h6>
-                                            <p>Repory suspicious activities on your account</p>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </i>
             <ul>
                 <li><a href="#">Features</a>
                     <div class="dropdown">
@@ -243,7 +116,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="3">
                                     <div class="pee">
                                             <div><img src="./images/career.svg" alt=""></div>
                                         <div>
@@ -309,72 +182,107 @@
                     </div>
                 </li>
             </ul>
-            <a href="#" class="btn btn-success p-2 ">Sign Up</a>
+            <a href="./download.html" class="btn btn-success p-2 ">Sign Up</a>
         </div>
     </nav>
 </header>
 <!-- ===============================================================
                     end of header
 =============================================================== -->
-    <main>
-        <!-- ===============================================================
-                    section 1
-=================================================================== -->
-            <section class="tag1">
-                    <div class="sub1">
-                        <h3>You’ll need your phone <br> for that    </h3>
-                        <p>Open the camera on your phone and scan the QR code, or tap</p>
-                        <p>the button below on your phone.</p>
-                        <div class="img">
-                            <img src="./images/Google Play Store icon.svg" alt="">
-                            <img src="./images/Store icon.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="sub1a">
-                        <img src="./images/Capture15.PNG" alt="">
-                    </div>
-            </section>
-            <section class="tag2">
-              <div class="sub2">
-                <h3>
-                    Getting started with the <br> Carbon app
-                </h3>
-              </div>
-              <div class="sub2a">
-                <div class="app">
-                    <div class="number">
-                        <p>01</p>
-                    </div>
-                    <h5>Download the app</h5>
-                    <p>Get the Carbon App on Google Play Store <br> for Android or App Store for iOS.</p>
-                    <div class="pink">
-                        <img class="google" src="./images/Google Play Store icon.svg" alt=""> <br>
-                        <img src="./images/Store icon.svg" alt="">
-                    </div>
-                </div>
-                <div class="app1">
-                    <div class="number2">
-                        <p>02</p>
-                    </div>
-                    <h5>Register within minutes</h5>
-                    <p>Tell us a few details about you to help us <br> create your Carbon account quickly.</p>
-                    <div class="pink1">
-                        <img src="./images/create.webp" alt="">
-                    </div>
-                </div>
-                <div class="app1">
-                    <div class="number2">
-                        <p>03</p>
-                    </div>
-                    <h5>Register within minutes</h5>
-                    <p>You’re ready to go. Carry out all your <br> banking transactions within the app.</p>
-                    <div class="pink1">
-                        <img src="./images/step 3.webp" alt="">
-                    </div>
-                </div>
-              </div>
-            </section>
-    </main>
+
+
+
+<!-- ===============================================================
+                    heropage
+=============================================================== -->
+
+
+<!-- ===============================================================
+                    section1
+=============================================================== -->
+<main>
+    <section class="tag1">
+        <div class="sub1">
+            <h2>Grow your <span>savings</span> with <br>Carbon</h2>
+            <p>Save smart and earn more with a Carbon savings <br> plan. We offer up to 15.5% interest on your <br> savings.</p>
+            <button class="cool"><a href="#">Start saving with Carbon</a></button>
+        </div>
+        <div class="sub1a">
+            <img src="./images/Capture100.PNG" alt="">
+        </div>
+    </section>
+    <section class="tag2">
+        <div class="sub2">
+            <h3>
+                Save for the things that <br> matter 
+            </h3>
+            <p>
+                Whatever your saving habits or goals are, we have a plan that’s <br> right for you.
+            </p>
+        </div>
+        <div class="sub2a">
+            <img src="./images/Capture101.PNG" alt="">
+        </div>
+    </section>
+    <section class="tag3">
+       <h2>Features</h2>
+       <div class="pee">
+        <div class="sub3">
+            <img src="./images/Automate icon (1).webp" alt="">
+            <div>
+                <h5>High yield savings</h5>
+                <p>You save the money, we <br> grow it! Earn up to 15% <br> interest on your savings on <br> your ‘Cash Vault’ savings <br> with a minimum of <br> ₦50,000.</p>
+            </div>
+        </div>
+        <div class="sub3">
+            <img src="./images/Automate icon (2).webp" alt="">
+            <div>
+                <h5>Automate your <br> savings</h5>
+                <p>Make saving a habit by <br> putting money aside <br> automatically at your <br> chosen time of the month.</p>
+            </div>
+        </div>
+        <div class="sub3">
+            <img src="./images/Automate icon (3).webp" alt="">
+            <div>
+                <h5>You’re safe, always</h5>
+                <p>Opening a bank account <br> and saving with Carbon is the <br> start of a relationship with <br> one of the most secure <br> digital banks insured by NDIC <br> and certified by CBN.</p>
+            </div>
+        </div>
+       </div>
+    </section>
+    <section class="tag4">
+        <div class="sub4">
+            <img src="./images/Capture103.PNG" alt="">
+        </div>
+        <div class="sub4a">
+            <h2>Cash Valut</h2>
+            <p>Lock away bulk sums for capital projects from as low as <br> ₦50,000 and earn 15.5% interest at maturity.</p>
+        </div>
+    </section>
+    <section class="tag5">
+        <div class="sub5">
+            <h2>Goals</h2>
+            <p>Invest towards your long or short term goals. Save a particular amount on a daily or weekly basis. Start as low as ₦100 to earn up to 9.5% interest at maturity.</p>
+        </div>
+        <img src="./images/goals 2.webp" alt="">
+    </section>
+    <section class="tag6">
+        <img src="./images/big-pile-money 1.webp" alt="">
+        <div class="sub6">
+            <h2>FlesSave</h2>
+            <p>
+                FlexSave
+                Have some spare cash? No amount is too small to save. Save it here and keep adding to it as you get more. Earn up to 9% interest.</p>
+        </div>
+    </section>
+    <section class="tag7">
+        <h1>Change the way you save</h1>
+        <button class="cool"><a href="#">Creat a saving plan today</a></button>
+    </section>
+</main>
+
+
+
 
 
 <footer>

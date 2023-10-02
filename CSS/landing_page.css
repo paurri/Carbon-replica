@@ -19,6 +19,16 @@ header nav {
   justify-content: space-between;
   padding: 5px;
 }
+header nav #menu-bar {
+  display: none;
+}
+header nav label {
+  cursor: pointer;
+  display: none;
+}
+header nav i {
+  display: none;
+}
 header nav .nav {
   display: flex;
   align-items: center;
@@ -44,6 +54,13 @@ header nav .nav1 {
   display: flex;
   align-items: center;
   gap: 2em;
+}
+header nav .nav1 #menu-bar {
+  display: none;
+}
+header nav .nav1 label {
+  cursor: pointer;
+  display: none;
 }
 header nav .nav1 i {
   display: none;
@@ -445,6 +462,102 @@ main .tag1 .main .sub1 .mini div img {
 .tag8 .sub8 img {
   height: 10em;
   margin-left: 7em;
+}
+
+.tag9 .sub9 {
+  padding-top: 5em;
+  padding-left: 7em;
+}
+.tag9 .sub9 h3 {
+  font-size: 3em;
+  color: #2c1762;
+}
+.tag9 .sub9a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+  margin-top: 5em;
+}
+.tag9 .sub9a .app {
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px black;
+}
+.tag9 .sub9a .app .number {
+  background-color: #2c1762;
+  border-radius: 100%;
+  width: 10%;
+  text-align: center;
+  margin: 10px 10px;
+}
+.tag9 .sub9a .app .number p {
+  color: #ffffff;
+  padding: 5px;
+}
+.tag9 .sub9a .app h5 {
+  font-size: 1.5em;
+  color: #2c1762;
+  font-family: Graphik, sans-serif;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+.tag9 .sub9a .app p {
+  font-family: Graphik, sans-serif;
+  line-height: 1.4em;
+  padding-bottom: 4em;
+  padding-left: 10px;
+  padding-right: 3em;
+}
+.tag9 .sub9a .app .pink {
+  padding-top: 3em;
+  display: block;
+  text-align: center;
+  background-color: #cf0871;
+  padding-bottom: 3em;
+}
+.tag9 .sub9a .app .pink .google {
+  padding-bottom: 1.2em;
+}
+.tag9 .sub9a .app1 {
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px black;
+}
+.tag9 .sub9a .app1 .number2 {
+  background-color: #2c1762;
+  border-radius: 100%;
+  width: 10%;
+  text-align: center;
+  margin: 10px 10px;
+  height: 2em;
+  align-items: center;
+}
+.tag9 .sub9a .app1 .number2 p {
+  color: #ffffff;
+  padding: 5px;
+}
+.tag9 .sub9a .app1 h5 {
+  font-size: 1.5em;
+  color: #2c1762;
+  font-family: Graphik, sans-serif;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+.tag9 .sub9a .app1 p {
+  font-family: Graphik, sans-serif;
+  line-height: 1.4em;
+  padding-bottom: 4em;
+  padding-left: 10px;
+  padding-right: 3em;
+}
+.tag9 .sub9a .app1 .pink1 {
+  padding-top: 8px;
+  display: block;
+  text-align: center;
+  background-color: #cf0871;
+}
+.tag9 .sub9a .app1 .pink1 img {
+  height: 15em;
 }
 
 .tag12 {
