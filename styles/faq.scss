@@ -12,6 +12,7 @@ header{
     background-color: $primary-color;
     position: sticky;
     top: 0.0001em;
+    z-index: 3;
     nav{
     //  background-color: $primary-color;
      width: 90%;
@@ -145,10 +146,11 @@ main{
 //                          section 2
 // ============================================================
 .tag2{
+    z-index: -1;
     .accordion{
         display: grid;
         grid-template-columns: repeat(2, 2fr);
-       
+       z-index: -1;
     }
 }
 .tag3{

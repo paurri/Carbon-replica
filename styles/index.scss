@@ -1,6 +1,7 @@
 @media (max-width: 1200px) {
     header{
         padding: 20px;
+        z-index: 2;
         nav{
             label{
                 display: initial;
@@ -38,7 +39,12 @@
         }
     }
     main{
-        
+        .tag1{
+            .main{
+                .sub1a{
+                }
+            }
+        }
     }
 }
 @media (max-width: 970px){
@@ -53,6 +59,7 @@
 }
 @media (max-width: 773px){
     header{
+        z-index: 2;
         nav{
             .nav1{
                 ul{
@@ -82,6 +89,9 @@
             .main{
                 display: block;
                 text-align: center;
+                .sub1a{
+                    z-index: 1;
+                }
             }
         }
         .tag2{

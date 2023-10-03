@@ -124,24 +124,28 @@ header nav .nav1 .btn {
 
 main .tag1 {
   background-color: #2c1762;
+}
+main .tag1 .main {
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main .tag1 .sub1 {
+main .tag1 .main .sub1 {
   padding: 3em 0;
 }
-main .tag1 .sub1 h3 {
+main .tag1 .main .sub1 h3 {
   font-size: 4em;
   color: #ffffff;
   padding-bottom: 8px;
 }
-main .tag1 .sub1 h3 span {
+main .tag1 .main .sub1 h3 span {
   background-image: linear-gradient(129deg, #ffffff, #cf0871);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-main .tag1 .sub1 p {
+main .tag1 .main .sub1 p {
   font-size: 1.8em;
   color: #ffffff;
   padding-bottom: 1em;

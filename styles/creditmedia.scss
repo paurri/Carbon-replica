@@ -49,8 +49,10 @@
     }
     main{
         .tag1{
+           .main{
             display: block;
             text-align: center;
+           }
         }
         .tag2{
             display: block;

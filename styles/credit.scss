@@ -147,29 +147,33 @@ header{
 main{
     .tag1{
         background-color: $primary-color;
-        display: $display;
-        justify-content: center;
-        align-items: center;
-        img{
+        .main{
+            width: 90%;
+            margin: auto;
+            display: $display;
+            justify-content: center;
+            align-items: center;
+            img{
             
-        }
-        .sub1{
-              padding: 3em 0;
-              h3{
-                  font-size: 4em;
-                  color: $text;
-                  padding-bottom: 8px;
-                  span{
-                      background-image: linear-gradient(129deg, $text, $main-color);
-                      -webkit-text-fill-color: transparent;
-                      -webkit-background-clip: text;
+            }
+            .sub1{
+                  padding: 3em 0;
+                  h3{
+                      font-size: 4em;
+                      color: $text;
+                      padding-bottom: 8px;
+                      span{
+                          background-image: linear-gradient(129deg, $text, $main-color);
+                          -webkit-text-fill-color: transparent;
+                          -webkit-background-clip: text;
+                      }
                   }
-              }
-              p{
-                  font-size: 1.8em;
-                  color: $text;
-                  padding-bottom: 1em;
-              }
+                  p{
+                      font-size: 1.8em;
+                      color: $text;
+                      padding-bottom: 1em;
+                  }
+        }
         }
     }
     .tag2{

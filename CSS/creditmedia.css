@@ -31,7 +31,7 @@
   header nav .nav ul {
     display: none;
   }
-  main .tag1 {
+  main .tag1 .main {
     display: block;
     text-align: center;
   }
